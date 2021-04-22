@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to header */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+/*remove default styling of links from browser, change color of links in header to yellow*/
+header a{
+    text-decoration: none;
+    color: #fce138;
+}
+
+/*force elements to the right of page, with a margin of 7px on top and bottom*/
+header nav{
+    float: right;
+    margin: 7px 0;
+}
+
+/*make the list horizontal*/
+header nav ul li {
+    display: inline;
+} 
+
+/*make the links lighter font, bigger size, add left and right margin of 30px to links*/
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/*override default browser styling on h1 in nav*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
