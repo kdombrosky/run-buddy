@@ -124,25 +124,6 @@ header nav ul li a {
 }
 /* hero styling end *
 
-/* what-we-do styling */
-.flex-row {
-    display: flex;
-  }
-
-.intro p{
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-/* what you do styling */
-.steps {
-    background: #fce138;
-}
-
 /* made to condense .steps h2 and .intro h2. also utility class */
 .section-title {
     font-size: 55px;
@@ -162,31 +143,72 @@ header nav ul li a {
     border-color: #39a6b2;
   }
 
-  .steps div {
-      margin-bottom: 80px;
+/* what-we-do styling */
+.flex-row {
+    display: flex;
   }
 
-  /* make images fit mockup size */
-  .steps img {
-      width: 15%;
-      margin: 10px 0;
-  }
+.intro p{
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-  .steps h3 {
-      color: #024e76;
-      font-size: 46px;
-      margin-top: 10px;
-  }
+/* what you do styling */
+.steps {
+    background: #fce138;
+}
 
-  .steps p {
-      color: #39a6b2;
-      font-size: 23px;
-  }
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
-  /* change a chunk of text out of a larger chunk of text, in this case making it smaller */
-  .steps span {
-      font-size: 38px;
-  }
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
 /* end what-we-do styling */
 
   /* style meet your trainers */
