@@ -36,16 +36,20 @@ header nav{
     margin: 7px 0;
 }
 
-/*make the list horizontal*/
-header nav ul li {
-    display: inline;
-} 
+/* replaced header nav ul li rule with flexbox */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
 
 /*make the links lighter font, bigger size, add left and right margin of 30px to links*/
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /*styling the footer*/
