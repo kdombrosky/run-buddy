@@ -13,6 +13,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex; /*default keeps everything on horizontal line*/
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -20,7 +23,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline; /*override default browser styling on h1 in nav*/
 }
 
 /*remove default styling of links from browser, change color of links in header to yellow*/
@@ -31,7 +33,6 @@ header a{
 
 /*force elements to the right of page, with a margin of 7px on top and bottom*/
 header nav{
-    float: right;
     margin: 7px 0;
 }
 
